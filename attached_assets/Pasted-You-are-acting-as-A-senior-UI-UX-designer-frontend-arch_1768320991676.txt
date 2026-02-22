@@ -1,0 +1,364 @@
+You are acting as:
+
+A senior UI/UX designer, frontend architect, SEO strategist, and enterprise web engineer with experience building premium industrial & procurement websites for GCC-based corporations.
+
+Your task is to design and generate a world-class, futuristic, multi-page corporate website for:
+
+⸻
+
+🏢 COMPANY PROFILE
+
+Company Name: Promec Industrial
+Slogan: Procurement Simplified
+
+Business Nature (IMPORTANT):
+	•	NOT an ecommerce website
+	•	Industrial trading + procurement + engineering support company
+	•	Based in Doha, Qatar
+	•	Serving:
+	•	Oil & Gas
+	•	Petrochemical
+	•	Power & Utilities
+	•	Construction & Infrastructure
+	•	Manufacturing
+	•	Operates across Qatar primarily, and GCC secondarily
+
+This website must immediately communicate:
+	•	Authority
+	•	Trust
+	•	Technical competence
+	•	Global-standard operations
+	•	“Procurement Simplified” as a core differentiator
+
+⸻
+
+🎯 CORE OBJECTIVES (NON-NEGOTIABLE)
+
+The website must:
+	•	Look better than 99% of industrial websites
+	•	Feel international, premium, and future-ready
+	•	Avoid generic templates completely
+	•	Visually stand apart from typical “industrial supplier” sites
+	•	Be route-based (multi-page) — NOT a long scrolling landing page
+	•	Use smooth, professional animations
+	•	Balance high-end UI with SEO excellence
+	•	Be deployment-ready for a real corporate business
+
+⸻
+
+🎨 BRANDING & COLOR SYSTEM (STRICT)
+
+Use the attached Promec Industrial logo as the ONLY source of color inspiration.
+
+Primary Colors
+	•	Industrial Near-Black → #0F172A
+	•	Clean White → #FFFFFF
+
+Accent Colors (from logo)
+	•	Energy Green → #7ED957
+	•	Steel Grey → #6B7280
+
+Optional Highlight (VERY SPARING)
+	•	Subtle Electric Glow → rgba(126,217,87,0.35)
+
+⚠️ ABSOLUTELY AVOID
+	•	Bright blues
+	•	Reds
+	•	Random gradients
+	•	Over-saturated visuals
+
+This is precision-engineered industrial tech, not a marketing gimmick.
+
+⸻
+
+🧠 DESIGN LANGUAGE & FEEL
+
+Visual identity must feel like:
+
+Industrial × Technology × Global Procurement
+
+Design characteristics:
+	•	Futuristic industrial aesthetic
+	•	Clean geometry
+	•	Large, confident typography
+	•	Strong spacing & hierarchy
+	•	Subtle glassmorphism (cards only)
+	•	Micro-interactions on hover
+	•	Smooth scroll & reveal animations
+	•	Premium motion — never flashy
+
+⸻
+
+🏗️ TECH STACK (MANDATORY)
+
+You MUST use:
+	•	React + Vite
+	•	Tailwind CSS
+	•	Framer Motion (animations)
+	•	React Router (routing)
+	•	Clean, scalable folder structure
+	•	Desktop-first design
+	•	Fully responsive & mobile optimized
+
+⸻
+
+🌐 LANGUAGE SWITCHING (MANDATORY)
+
+Implement multi-language support:
+	•	Default: English
+	•	Secondary: Arabic
+
+Requirements:
+	•	Language toggle in header (EN / AR)
+	•	RTL support for Arabic
+	•	Clean i18n structure
+	•	SEO-friendly language handling
+	•	Content tone remains professional in both languages
+
+⸻
+
+🧭 WEBSITE ROUTES (STRICT)
+
+The site MUST be route-based with these pages:
+
+/           → Landing Page
+/about
+/solutions
+/industries
+/procurement
+/blog
+/contact
+
+⚠️ Landing page shows glimpses, not full content.
+
+⸻
+
+🚀 PAGE-BY-PAGE DESIGN & CONTENT REQUIREMENTS
+
+⸻
+
+1️⃣ LANDING PAGE (MOST IMPORTANT)
+
+HERO SECTION (Extraordinary)
+	•	Full-screen hero
+	•	Dark industrial background
+	•	Abstract geometry + subtle animated grid
+	•	Soft green glow accents
+	•	Light particle movement (slow & premium)
+	•	NO stock-photo dominance
+
+Headline (H1):
+Industrial Procurement & MRO Solutions in Qatar — Simplified
+
+Sub-headline:
+Supporting Oil & Gas, Petrochemical, Power & Infrastructure Projects Across Qatar & Beyond
+
+CTAs:
+	•	Primary (Green Glow): Explore Our Capabilities
+	•	Secondary (Outline): Contact Our Team
+Hover glow + micro motion required.
+
+⸻
+
+VALUE STRIP (Animated on Scroll)
+Icon-based with fade-up animation:
+	•	End-to-End Procurement
+	•	Authorized Global Brands
+	•	Technical & Engineering Support
+	•	Fast Lead Times
+	•	Reliable Supply Chain
+
+⸻
+
+SOLUTIONS PREVIEW
+Hover tilt + glow cards:
+	•	Electrical & Mechanical MRO
+	•	Industrial Tools & Equipment
+	•	Valves, Pumps & Flow Control
+	•	Safety & PPE
+	•	Project Procurement Support
+
+Each card → /solutions
+
+⸻
+
+PROCUREMENT DIFFERENTIATOR
+Headline:
+More Than Trading. Complete Procurement Simplified.
+
+Bullets:
+	•	Vendor identification & sourcing
+	•	OEM coordination
+	•	Documentation & compliance
+	•	Logistics & consolidation
+	•	After-sales support
+
+CTA → /procurement
+
+⸻
+
+INDUSTRIES SNAPSHOT
+Dark section with icons:
+	•	Oil & Gas
+	•	Petrochemical
+	•	Power & Utilities
+	•	Construction & Infrastructure
+	•	Manufacturing
+
+CTA → /industries
+
+⸻
+
+FINAL CTA
+Large futuristic banner:
+Let’s Simplify Your Procurement Challenges
+
+Button → /contact
+
+⸻
+
+2️⃣ ABOUT PAGE
+	•	Minimal & confident
+	•	Corporate tone
+	•	Timeline or stats animation
+	•	Focus on:
+	•	Trust
+	•	Experience
+	•	Qatar & Middle East presence
+	•	Compliance mindset
+
+⸻
+
+3️⃣ SOLUTIONS PAGE
+	•	Categorized solutions
+	•	Icon-driven
+	•	Expandable cards
+	•	No pricing
+	•	Clean technical descriptions
+	•	SEO-friendly headings
+
+⸻
+
+4️⃣ INDUSTRIES PAGE
+
+For each industry:
+	•	Key challenges
+	•	How Promec supports them
+	•	Subtle animated dividers
+
+⸻
+
+5️⃣ PROCUREMENT PAGE (CRITICAL)
+
+This page must SELL “Procurement Simplified”.
+
+Include:
+	•	Step-by-step procurement lifecycle
+	•	Process flow animation
+	•	Visual timelines
+	•	Clear comparison vs traditional traders
+	•	SEO-rich but visually clean
+
+⸻
+
+6️⃣ BLOG PAGE
+	•	Clean editorial layout
+	•	Card-based design
+	•	Route-based blog posts
+	•	Authority-building content
+
+CREATE 3 DEMO BLOG POSTS:
+Blog 1
+Why Reliable Industrial Procurement Is Critical for Oil & Gas Projects in Qatar
+
+Blog 2
+Industrial Safety Equipment Standards in Qatar: What Every Project Must Know
+
+Blog 3
+MRO vs Emergency Purchasing: How Planned Procurement Saves Costs in Heavy Industry
+
+⸻
+
+7️⃣ CONTACT PAGE
+	•	Minimal form
+	•	Doha, Qatar clearly mentioned
+	•	WhatsApp CTA
+	•	Clean map placeholder
+	•	Trust-focused design
+
+⸻
+
+🌍 REGIONAL SEO STRATEGY (QATAR & GCC)
+
+Target Geography
+	•	Primary: Qatar (Doha)
+	•	Secondary: UAE, KSA, Oman, Kuwait
+
+CORE SEO KEYWORDS (USE NATURALLY)
+	•	Industrial supplier in Qatar
+	•	MRO supplier Qatar
+	•	Industrial procurement services Qatar
+	•	Oil and gas equipment supplier Qatar
+	•	Industrial trading company Doha
+	•	Procurement services Doha
+	•	Industrial tools supplier Qatar
+
+LONG-TAIL AUTHORITY KEYWORDS
+	•	End-to-end procurement solutions in Qatar
+	•	Industrial MRO solutions for oil & gas Qatar
+	•	Reliable industrial supply chain Qatar
+	•	Engineering procurement support Qatar
+
+⚠️ No keyword stuffing.
+SEO must enhance credibility, not clutter design.
+
+⸻
+
+❓ FAQ SECTION (MANDATORY)
+
+Include FAQs such as:
+	•	Industries served
+	•	Difference between trading & procurement
+	•	Certified products
+	•	Urgent procurement
+	•	GCC coverage
+
+⸻
+
+🎞️ ANIMATION GUIDELINES
+
+Use animations for:
+	•	Page transitions
+	•	Scroll reveals
+	•	Hover interactions
+	•	Button micro-motions
+	•	Section dividers
+
+⚠️ Smooth, subtle, professional — NEVER excessive.
+
+⸻
+
+🧩 FINAL OUTPUT EXPECTATION
+
+Generate:
+	•	Full React + Vite project
+	•	Clean Tailwind styling
+	•	Framer Motion animations
+	•	Proper routing
+	•	SEO-ready structure
+	•	Language switching (EN / AR)
+	•	Premium UI
+	•	Scalable, maintainable codebase
+	•	Ready for real corporate deployment
+
+⸻
+
+🔒 FINAL ABSOLUTE RULES
+	•	Do NOT generate a generic template
+	•	Do NOT downgrade visuals for SEO
+	•	Do NOT make it ecommerce-style
+	•	Do NOT ignore the logo-based color system
+
+This website must visually and functionally represent:
+
+Promec Industrial — The company that simplifies industrial procurement in Qatar.

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Rajdhani', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Promec Industrial Theme – derived from hero refinery image */
+
+  /* Background & base */
+  --background: 220 45% 7%;      /* ≈ #050814 – deep midnight blue from sky/refinery shadows */
+  --foreground: 210 40% 96%;     /* ≈ #F9FAFB – near-white for primary text */
+  
+  /* Brand oranges & steels */
+  --primary: 24 100% 56%;        /* ≈ #FF7A1A – industrial orange from power tools / welding unit */
+  --primary-foreground: 210 40% 10%; /* dark navy text/icon on orange buttons */
+  
+  --secondary: 211 36% 23%;      /* ≈ #1F3B5B – steel blue from pumps / machinery */
+  --secondary-foreground: 210 40% 96%;
+  
+  /* Surfaces & muted content */
+  --muted: 215 28% 15%;          /* ≈ #0B1220 – dark card background from ground/pipe shadows */
+  --muted-foreground: 215 20% 70%; /* ≈ #9CA3AF – muted steel grey text */
+
+  /* Accent / CTA highlight from flare & warm reflections */
+  --accent: 40 100% 66%;         /* ≈ #FFC857 – warm amber highlight */
+  --accent-foreground: 210 40% 12%;
+
+  /* Status / destructive */
+  --destructive: 2 85% 58%;      /* ≈ #EF4444 – alert red */
+  --destructive-foreground: 0 0% 100%;
+
+  /* Borders, inputs, focus ring */
+  --border: 215 30% 22%;         /* subtle steel border */
+  --input: 215 30% 22%;
+  --ring: 40 100% 66%;           /* focus ring using amber accent */
+  
+  --radius: 0.25rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/30 selection:text-white;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+    @apply uppercase tracking-wide font-bold;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(126, 217, 87, 0.5);
+  }
+  
+  .border-glow {
+    box-shadow: 0 0 15px rgba(126, 217, 87, 0.2);
+  }
+
+  .glass-panel {
+    @apply bg-background/80 backdrop-blur-md border border-white/10;
+  }
+  
+  .tech-grid-bg {
+    /* Subtle industrial grid using amber/orange glow */
+    background-image: 
+      linear-gradient(rgba(255, 200, 87, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 122, 26, 0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
