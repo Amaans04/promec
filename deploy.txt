@@ -1,0 +1,4 @@
+First npm run build in root folder
+cd to root folder 
+vercel --prod
+in amaan saifys's projects in vercel
